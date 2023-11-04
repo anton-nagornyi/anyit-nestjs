@@ -1,0 +1,14 @@
+name: Publish IsPublic Decorator
+on:
+  workflow_dispatch:
+
+jobs:
+  publish:
+    name: publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: publish
+        uses: anton-nagornyi/anyit-act/.github/composite-actions/publish@main
+        with:
+          working-directory: packages/auth/is-public-decorator
+          npm-auth-token: ${{ secrets.NPM_AUTH_TOKEN }}
