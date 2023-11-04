@@ -1,8 +1,8 @@
 {
   "name": "@anyit/nestjs-is-public-decorator",
   "author": "Anton Nagornyi",
-  "version": "1.0.0",
-  "homepage": "https://github.com/anton-nagornyi/anyit-nestjs/packages/auth/is-public-decorator#readme",
+  "version": "1.0.1",
+  "homepage": "https://github.com/anton-nagornyi/anyit-nestjs/tree/main/packages/auth/is-public-decorator",
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",
   "license": "MIT",
