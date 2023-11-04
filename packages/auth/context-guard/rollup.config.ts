@@ -11,10 +11,10 @@ export default [
 		},
 		external: [
 			'@nestjs/graphql',
-			'@nestjs/apollo',
-			'@apollo/server/plugin/landingPage/default',
-			'@apollo/server/plugin/inlineTrace',
-			'@apollo/server/plugin/disabled'
+			'@nestjs/common',
+			'@nestjs/core',
+			'graphql',
+			'@anyit/nestjs-is-public-decorator'
 		],
 		plugins: [
 			typescript({
