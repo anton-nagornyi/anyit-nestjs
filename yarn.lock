@@ -111,9 +111,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@anyit/nestjs@workspace:packages/subgraph":
+"@anyit/nestjs-subgraph@workspace:packages/subgraph":
   version: 0.0.0-use.local
-  resolution: "@anyit/nestjs@workspace:packages/subgraph"
+  resolution: "@anyit/nestjs-subgraph@workspace:packages/subgraph"
   dependencies:
     "@apollo/server": 4.9.5
     "@babel/core": ^7.23.2
