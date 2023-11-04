@@ -22,10 +22,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@anyit/nestjs-guards@workspace:packages/auth/guards":
+"@anyit/nestjs-context-guard@workspace:packages/auth/context-guard":
   version: 0.0.0-use.local
-  resolution: "@anyit/nestjs-guards@workspace:packages/auth/guards"
+  resolution: "@anyit/nestjs-context-guard@workspace:packages/auth/context-guard"
   dependencies:
+    "@anyit/nestjs-is-public-decorator": "workspace:*"
     "@babel/core": ^7.23.2
     "@babel/plugin-syntax-flow": ^7.22.5
     "@babel/plugin-transform-react-jsx": ^7.22.15
@@ -68,7 +69,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@anyit/nestjs-is-public-decorator@workspace:packages/auth/is-public-decorator":
+"@anyit/nestjs-is-public-decorator@workspace:*, @anyit/nestjs-is-public-decorator@workspace:packages/auth/is-public-decorator":
   version: 0.0.0-use.local
   resolution: "@anyit/nestjs-is-public-decorator@workspace:packages/auth/is-public-decorator"
   dependencies:
